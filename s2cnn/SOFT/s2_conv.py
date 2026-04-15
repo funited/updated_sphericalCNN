@@ -12,10 +12,10 @@ import torch
 from torch.nn.parameter import Parameter
 from torch.nn.modules import Module
 
-from s2_fft import S2_fft_real
-from so3_fft import SO3_ifft_real
-from s2_rft  import s2_rft
-from s2_mm   import s2_mm
+from .s2_fft import S2_fft_real
+from .so3_fft import SO3_ifft_real
+from .s2_rft  import s2_rft
+from .s2_mm   import s2_mm
 
 
 class S2Convolution(Module):
