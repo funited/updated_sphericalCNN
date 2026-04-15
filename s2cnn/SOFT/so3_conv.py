@@ -13,7 +13,7 @@ from torch.nn.parameter import Parameter
 from torch.nn.modules import Module
 
 from .so3_fft import SO3_fft_real, SO3_ifft_real
-from .so3_rft import so3_rft
+from .so3_ft import so3_rft
 from .so3_mm  import so3_mm
 
 
