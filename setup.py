@@ -2,7 +2,7 @@ import os
 from setuptools import setup, find_packages
 
 setup(
-    name='updated_sphericalCNN',
+    name='s2cnn',
     version="1.0.0",
     author="Jeremy Funited",
     url="https://github.com/funited/updated_sphericalCNN",
